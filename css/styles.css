@@ -1,0 +1,106 @@
+body {
+  background-color: #E2C275;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+    color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 20%;
+  color: grey;
+}
+
+a {
+  color: #11999E;
+}
+
+.contact-me {
+  margin-bottom: 20px;
+}
+
+.circular-pic {
+  width: 25%;
+}
+
+.top-container {
+  background-color: #C36A2D;
+  position: relative;
+  padding-top: 100px;
+}
+
+.mid-container {
+  padding-top: 20px;
+}
+
+.bot-container {
+  background-color: #EADCA6;
+  padding:20px;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.footer-link {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto;
+  text-align: left;
+}
+
+.btn {
+  background-color: #c6f1f3;
+  background-image: linear-gradient(to bottom, #0fc8ce, #0eb1b7, #2fa5a9);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 5px 20px;
+  border: 0;
+  border-radius: 10px;
+  line-height: 2;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #0079ff, #1a86ff, #3394ff);
+}
+
+#hide {
+  visibility: hidden;
+}
+
+#web-dev {
+  text-decoration: underline;
+  margin: 0 0;
+}
